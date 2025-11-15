@@ -1,23 +1,14 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "outDir": "./dist",
     "rootDir": "./",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "resolveJsonModule": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "strictBuiltinIteratorReturn": true,
-    "alwaysStrict": true,
-    "useUnknownInCatchVariables": true
+    "resolveJsonModule": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["dist", "node_modules"]
